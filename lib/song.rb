@@ -29,7 +29,7 @@ class Song
      genre_hash[gen].nil? ? genre_hash[gen] = 1 : genre_hash[gen] += 1
  end
  genre_hash
- 
+ end
  def self.artist_count
     artist_hash = {}
     @@artists.each do |artist|
@@ -38,6 +38,7 @@ class Song
     artist_hash
   end
 
+end
 
 
 
