@@ -17,8 +17,10 @@ class Song
  def self.count
    @@count
  end
- def 
- 
+ def self.artist
+   @@artist.uniq
+ end
+ def self.ge
 end
 
 
